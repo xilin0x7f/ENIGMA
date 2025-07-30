@@ -573,7 +573,7 @@ def load_summary_stats(disorder=None):
 
         Parameters
         ----------
-        disorder : {'22q', 'adhd', 'asd', 'bipolar', 'depression', 'epilepsy', 'ocd', 'schizophrenia'}
+        disorder : {'22q', 'adhd', 'antisocial', 'asd', 'bipolar', 'depression', 'epilepsy', 'ocd', 'schizophrenia'}
             Disorder name, default is None
 
         Returns
@@ -663,6 +663,21 @@ def load_summary_stats(disorder=None):
                 'SubVol_case_vs_controls_adult':SubVol_case_controls_adult,
                 'SubVol_case_vs_controls_adolescent':SubVol_case_controls_adolescent,
                 'SubVol_case_vs_controls_pediatric':SubVol_case_controls_pediatric}
+
+    elif disorder == "antisocial":
+        CortThick_case_controls_meta_analysis = pd.read_csv(
+            os.path.join(root_pth, 'summary_statistics', 'Antisocial_case-controls_CortThick.csv'),
+            on_bad_lines='skip')
+        CortSurf_case_controls_meta_analysis = pd.read_csv(
+            os.path.join(root_pth, 'summary_statistics', 'Antisocial_case-controls_CortSurf.csv'),
+            on_bad_lines='skip')
+        SubVol_case_controls_meta_analysis = pd.read_csv(
+            os.path.join(root_pth, 'summary_statistics', 'Antisocial_case-controls_SubVol.csv'),
+            on_bad_lines='skip')
+
+        return {'CortThick_case_controls_meta_analysis': CortThick_case_controls_meta_analysis,
+                'CortSurf_case_controls_meta_analysis': CortSurf_case_controls_meta_analysis,
+                'SubVol_case_controls_meta_analysis': SubVol_case_controls_meta_analysis}
 
     elif disorder == "asd":
         CortThick_case_controls_meta_analysis = pd.read_csv(

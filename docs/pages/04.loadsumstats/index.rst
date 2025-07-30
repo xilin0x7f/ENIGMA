@@ -152,6 +152,43 @@ Available summary statistics tables
 |
 
 
+Antisocial
+-------------------------------------
+Available summary statistics tables
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| **From** `Lastname et al., YEAR, JOURNAL NAME <https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2017.17010100>`_  |  **age, sex, IQ, and ICV\* correction; FDR correction available (uncorrected p-values not provided); mean\* [(left+right)/ 2)] region of interest volume**
+| ↪ CortThick_case_vs_controls_meta_analysis 📸
+| ↪ CortSurf_case_controls_meta_analysis
+| ↪ SubVol_case_vs_controls_meta_analysis
+
+.. tabs::
+
+   .. code-tab:: py **Python** | meta
+
+        >>> from enigmatoolbox.datasets import load_summary_stats
+
+        >>> # Load summary statistics for ENIGMA-Autism
+        >>> sum_stats = load_summary_stats('antisocial')
+
+        >>> # Get case-control cortical thickness table
+        >>> CT = sum_stats['CortThick_case_vs_controls_meta_analysis']
+
+        >>> # Extract Cohen's d values
+        >>> CT_d = CT['d_icv']
+
+   .. code-tab:: matlab **Matlab** | meta
+
+        % Load summary statistics for ENIGMA-Autism
+        sum_stats = load_summary_stats('antisocial');
+
+        % Get case-control cortical thickness table
+        CT = sum_stats.CortThick_case_vs_controls_meta_analysis;
+
+        % Extract Cohen's d values
+        CT_d = CT.d_icv;
+
+
 Autism spectrum disorder
 -------------------------------------
 Available summary statistics tables
