@@ -1,0 +1,17 @@
+Subcortical Volume;Structure;d_icv;se_icv;low_ci_icv;up_ci_icv;n_controls;n_patients;pobs;fdr_p
+CHR-PS-< HC;LLatVent;0.08;;0;0.16;;;0.04;
+CHR-PS-< HC;Lthal;-0.14;;-0.21;-0.06;;;5.33e-04;
+CHR-PS-< HC;Lcaud;-0.04;;-0.12;0.04;;;0.33;
+CHR-PS-< HC;Lput;-0.05;;-0.13;0.03;;;0.20;
+CHR-PS-< HC;Lpal;-0.08;;-0.15;0;;;0.05;
+CHR-PS-< HC;Lhippo;-0.15;;-0.22;-0.07;;;2.04e-04;
+CHR-PS-< HC;Lamyg;-0.08;;-0.15;0;;;0.05;
+CHR-PS-< HC;Laccumb;-0.06;;-0.14;0.01;;;0.11;
+CHR-PS-< HC;RLatVent;0.07;;-0.01;0.15;;;0.08;
+CHR-PS-< HC;Rthal;-0.16;;-0.24;-0.08;;;5.61e-05;
+CHR-PS-< HC;Rcaud;-0.07;;-0.15;0.01;;;0.08;
+CHR-PS-< HC;Rput;-0.07;;-0.15;0.01;;;0.07;
+CHR-PS-< HC;Rpal;-0.08;;-0.15;0;;;0.05;
+CHR-PS-< HC;Rhippo;-0.20;;-0.28;-0.12;;;4.58e-07;
+CHR-PS-< HC;Ramyg;-0.12;;-0.2;-0.04;;;2.62e-03;
+CHR-PS-< HC;Raccumb;-0.05;;-0.13;0.03;;;0.19;

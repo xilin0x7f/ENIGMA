@@ -7,7 +7,7 @@ function summary_stats = load_summary_stats(disorder)
 %   Outputs summary statistics for a given disorder (author: @saratheriver)
 % 
 % Inputs:
-%   disorder ({'22q', 'adhd', 'antisocial', 'asd', 'bipolar', 'depression', 'epilepsy',
+%   disorder ({'22q', 'adhd', 'anorexia', 'antisocial', 'asd', 'bipolar', 'depression', 'epilepsy',
 %   'ocd', 'schizophrenia'}) - Disorder name, must pick one.
 % 
 % Outputs:
@@ -45,10 +45,16 @@ switch disorder
         summary_stats.SubVol_case_vs_controls_adolescent = readtable('adhdadolescent_case-controls_SubVol.csv');
         summary_stats.SubVol_case_vs_controls_pediatric = readtable('adhdpediatric_case-controls_SubVol.csv');
 
+    case 'anorexia'
+        summary_stats.CortThick_case_controls_meta_analysis = readtable('anorexia_case-controls_CortThick.csv');
+        summary_stats.CortSurf_case_controls_meta_analysis = readtable('anorexia_case-controls_CortSurf.csv');
+        summary_stats.SubVol_case_controls_meta_analysis = readtable('Antisocial_case-controls_SubVol.csv');
+
     case 'antisocial'
         summary_stats.CortThick_case_vs_controls_meta_analysis = readtable('Antisocial_case-controls_CortThick.csv');
         summary_stats.CortThick_case_vs_controls_mega_analysis = readtable('Antisocial_case-controls_CortSurf.csv');
-        summary_stats.SubVol_case_vs_controls_meta_analysis = readtable('Antisocial_case-controls_SubVol.csv');
+        summary_stats.SubVol_case_vs_controls_meta_analysis = readtable('anorexia_case-controls_SubVol.csv');
+        
 
     case 'asd'
         summary_stats.CortThick_case_vs_controls_meta_analysis = readtable('asd_meta-analysis_case-controls_CortThick.csv');
