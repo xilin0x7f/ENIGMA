@@ -1,69 +1,69 @@
-Surface Area;Structure;d_icv;se_icv;low_ci_icv;up_ci_icv;n_controls;n_patients;pobs;fdr_p;;;
-antisocialvsCN;L_bankssts_thickavg;-0.12;;-0.20;-0.04;1227;1162;0.0029 ;0.0053;;;
-antisocialvsCN;L_caudalanteriorcingulate_thickavg;-0.12;;-0.20;-0.04;1227;1160;0.0039; 0.0067;;;
-antisocialvsCN;L_caudalmiddlefrontal_thickavg;-0.14;;-0.22;-0.06;1225;1156;0.0007 ;0.0016;;;
-antisocialvsCN;L_cuneus_thickavg;-0.09;;-0.17;-0.01;1209;1149;0.0254 ;0.0337;;;
-antisocialvsCN;L_entorhinal_thickavg;-0.12;;-0.20;-0.04;1201;1143;0.0040 ;0.0067;;;
-antisocialvsCN;L_fusiform_thickavg;-0.17;;-0.25;-0.08;1214;1157;0.0001; 0.0003;;;
-antisocialvsCN;L_inferiorparietal_thickavg;-0.26;;-0.34;-0.18;1208;1159;<0.0001;<0.0001;;;
-antisocialvsCN;L_inferiortemporal_thickavg;-0.20;;-0.28;-0.12;1198;1132;<0.0001;<0.0001;;;
-antisocialvsCN;L_isthmuscingulate_thickavg;-0.14;;-0.22;-0.06;1234;1165;0.0008; 0.0020;;;
-antisocialvsCN;L_lateraloccipital_thickavg;-0.12;;-0.20;-0.03;1210;1150;0.0053 ;0.0085;;;
-antisocialvsCN;L_lateralorbitofrontal_thickavg;-0.15;;-0.23;-0.07;1230;1161;0.0002; 0.0005;;;
-antisocialvsCN;L_lingual_thickavg;-0.10;;-0.18;-0.02;1218;1160;0.0148 ;0.0216;;;
-antisocialvsCN;L_medialorbitofrontal_thickavg;-0.06;;-0.14;0.02;1221;1154;0.1262 ;0.1472;;;
-antisocialvsCN;L_middletemporal_thickavg;-0.22;;-0.30;-0.14;1211;1152;<0.0001;<0.0001;;;
-antisocialvsCN;L_parahippocampal_thickavg;-0.16;;-0.24;-0.08;1233;1170;0.0001; 0.0004;;;
-antisocialvsCN;L_paracentral_thickavg;-0.04;;-0.12;0.04;1233;1170;0.2752; 0.2943;;;
-antisocialvsCN;L_parsopercularis_thickavg;-0.04;;-0.12;0.04;1233;1169;0.3099 ;0.3190;;;
-antisocialvsCN;L_parsorbitalis_thickavg;-0.11;;-0.19;-0.03;1233;1168;0.0071 ;0.0107;;;
-antisocialvsCN;L_parstriangularis_thickavg;-0.07;;-0.15;0.01;1232;1168;0.1005; 0.1256;;;
-antisocialvsCN;L_pericalcarine_thickavg;-0.05;;-0.13;0.03;1194;1143;0.2401 ;0.2711;;;
-antisocialvsCN;L_postcentral_thickavg;-0.16;;-0.24;-0.08;1185;1136;0.0001; 0.0004;;;
-antisocialvsCN;L_posteriorcingulate_thickavg;-0.09;;-0.17;-0.01;1233;1167;0.0260 ;0.0337;;;
-antisocialvsCN;L_precentral_thickavg;-0.16;;-0.24;-0.08;1202;1144;0.0002; 0.0005;;;
-antisocialvsCN;L_precuneus_thickavg;-0.15;;-0.23;-0.07;1235;1167;0.0003 ;0.0008;;;
-antisocialvsCN;L_rostralanteriorcingulate_thickavg;-0.07;;-0.15;0.01;1230;1161;0.1101; 0.1328;;;
-antisocialvsCN;L_rostralmiddlefrontal_thickavg;-0.13;;-0.22;-0.05;1227;1152;0.0011; 0.0023;;;
-antisocialvsCN;L_superiorfrontal_thickavg;-0.19;;-0.27;-0.11;1219;1153;<0.0001;<0.0001;;;
-antisocialvsCN;L_superiorparietal_thickavg;-0.09;;-0.17;-0.01;1199;1148;0.0239; 0.0335;;;
-antisocialvsCN;L_superiortemporal_thickavg;-0.17;;-0.25;-0.09;1189;1138;<0.0001;<0.0001;;;
-antisocialvsCN;L_supramarginal_thickavg;-0.13;;-0.21;-0.05;1196;1146;0.0019 ;0.0037;;;
-antisocialvsCN;L_frontalpole_thickavg;-0.20;;-0.28;-0.12;1228;1158;<0.0001;<0.0001;;;
-antisocialvsCN;L_temporalpole_thickavg;-0.01;;-0.09;0.07;1205;1139;0.7840; 0.7840;;;
-antisocialvsCN;L_transversetemporal_thickavg;-0.04;;-0.12;0.04;1235;1168;0.2775; 0.2943;;;
-antisocialvsCN;L_insula_thickavg;-0.13;;-0.22;-0.05;1191;1148;0.0011 ;0.0024;;;
-antisocialvsCN;R_bankssts_thickavg;;;;;;;;;;;
-antisocialvsCN;R_caudalanteriorcingulate_thickavg;;;;;;;;;;;
-antisocialvsCN;R_caudalmiddlefrontal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_cuneus_thickavg;;;;;;;;;;;
-antisocialvsCN;R_entorhinal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_fusiform_thickavg;;;;;;;;;;;
-antisocialvsCN;R_inferiorparietal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_inferiortemporal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_isthmuscingulate_thickavg;;;;;;;;;;;
-antisocialvsCN;R_lateraloccipital_thickavg;;;;;;;;;;;
-antisocialvsCN;R_lateralorbitofrontal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_lingual_thickavg;;;;;;;;;;;
-antisocialvsCN;R_medialorbitofrontal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_middletemporal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_parahippocampal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_paracentral_thickavg;;;;;;;;;;;
-antisocialvsCN;R_parsopercularis_thickavg;;;;;;;;;;;
-antisocialvsCN;R_parsorbitalis_thickavg;;;;;;;;;;;
-antisocialvsCN;R_parstriangularis_thickavg;;;;;;;;;;;
-antisocialvsCN;R_pericalcarine_thickavg;;;;;;;;;;;
-antisocialvsCN;R_postcentral_thickavg;;;;;;;;;;;
-antisocialvsCN;R_posteriorcingulate_thickavg;;;;;;;;;;;
-antisocialvsCN;R_precentral_thickavg;;;;;;;;;;;
-antisocialvsCN;R_precuneus_thickavg;;;;;;;;;;;
-antisocialvsCN;R_rostralanteriorcingulate_thickavg;;;;;;;;;;;
-antisocialvsCN;R_rostralmiddlefrontal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_superiorfrontal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_superiorparietal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_superiortemporal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_supramarginal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_frontalpole_thickavg;;;;;;;;;;;
-antisocialvsCN;R_temporalpole_thickavg;;;;;;;;;;;
-antisocialvsCN;R_transversetemporal_thickavg;;;;;;;;;;;
-antisocialvsCN;R_insula_thickavg;;;;;;;;;;;
+Surface Area,Structure,d_icv,se_icv,low_ci_icv,up_ci_icv,n_controls,n_patients,pobs,fdr_p,,,
+antisocialvsCN,L_bankssts,-0.12,,-0.20,-0.04,1227,1162,0.0029,0.0053,,,
+antisocialvsCN,L_caudalanteriorcingulate,-0.12,,-0.20,-0.04,1227,1160,0.0039,0.0067,,,
+antisocialvsCN,L_caudalmiddlefrontal,-0.14,,-0.22,-0.06,1225,1156,0.0007,0.0016,,,
+antisocialvsCN,L_cuneus,-0.09,,-0.17,-0.01,1209,1149,0.0254,0.0337,,,
+antisocialvsCN,L_entorhinal,-0.12,,-0.20,-0.04,1201,1143,0.0040,0.0067,,,
+antisocialvsCN,L_fusiform,-0.17,,-0.25,-0.08,1214,1157,0.0001,0.0003,,,
+antisocialvsCN,L_inferiorparietal,-0.26,,-0.34,-0.18,1208,1159,<0.0001,<0.0001,,,
+antisocialvsCN,L_inferiortemporal,-0.20,,-0.28,-0.12,1198,1132,<0.0001,<0.0001,,,
+antisocialvsCN,L_isthmuscingulate,-0.14,,-0.22,-0.06,1234,1165,0.0008,0.0020,,,
+antisocialvsCN,L_lateraloccipital,-0.12,,-0.20,-0.03,1210,1150,0.0053,0.0085,,,
+antisocialvsCN,L_lateralorbitofrontal,-0.15,,-0.23,-0.07,1230,1161,0.0002,0.0005,,,
+antisocialvsCN,L_lingual,-0.10,,-0.18,-0.02,1218,1160,0.0148,0.0216,,,
+antisocialvsCN,L_medialorbitofrontal,-0.06,,-0.14,0.02,1221,1154,0.1262,0.1472,,,
+antisocialvsCN,L_middletemporal,-0.22,,-0.30,-0.14,1211,1152,<0.0001,<0.0001,,,
+antisocialvsCN,L_parahippocampal,-0.16,,-0.24,-0.08,1233,1170,0.0001,0.0004,,,
+antisocialvsCN,L_paracentral,-0.04,,-0.12,0.04,1233,1170,0.2752,0.2943,,,
+antisocialvsCN,L_parsopercularis,-0.04,,-0.12,0.04,1233,1169,0.3099,0.3190,,,
+antisocialvsCN,L_parsorbitalis,-0.11,,-0.19,-0.03,1233,1168,0.0071,0.0107,,,
+antisocialvsCN,L_parstriangularis,-0.07,,-0.15,0.01,1232,1168,0.1005,0.1256,,,
+antisocialvsCN,L_pericalcarine,-0.05,,-0.13,0.03,1194,1143,0.2401,0.2711,,,
+antisocialvsCN,L_postcentral,-0.16,,-0.24,-0.08,1185,1136,0.0001,0.0004,,,
+antisocialvsCN,L_posteriorcingulate,-0.09,,-0.17,-0.01,1233,1167,0.0260,0.0337,,,
+antisocialvsCN,L_precentral,-0.16,,-0.24,-0.08,1202,1144,0.0002,0.0005,,,
+antisocialvsCN,L_precuneus,-0.15,,-0.23,-0.07,1235,1167,0.0003,0.0008,,,
+antisocialvsCN,L_rostralanteriorcingulate,-0.07,,-0.15,0.01,1230,1161,0.1101,0.1328,,,
+antisocialvsCN,L_rostralmiddlefrontal,-0.13,,-0.22,-0.05,1227,1152,0.0011,0.0023,,,
+antisocialvsCN,L_superiorfrontal,-0.19,,-0.27,-0.11,1219,1153,<0.0001,<0.0001,,,
+antisocialvsCN,L_superiorparietal,-0.09,,-0.17,-0.01,1199,1148,0.0239,0.0335,,,
+antisocialvsCN,L_superiortemporal,-0.17,,-0.25,-0.09,1189,1138,<0.0001,<0.0001,,,
+antisocialvsCN,L_supramarginal,-0.13,,-0.21,-0.05,1196,1146,0.0019,0.0037,,,
+antisocialvsCN,L_frontalpole,-0.20,,-0.28,-0.12,1228,1158,<0.0001,<0.0001,,,
+antisocialvsCN,L_temporalpole,-0.01,,-0.09,0.07,1205,1139,0.7840,0.7840,,,
+antisocialvsCN,L_transversetemporal,-0.04,,-0.12,0.04,1235,1168,0.2775,0.2943,,,
+antisocialvsCN,L_insula,-0.13,,-0.22,-0.05,1191,1148,0.0011,0.0024,,,
+antisocialvsCN,R_bankssts,-0.12,,-0.20,-0.04,1227,1162,0.0029,0.0053,,,
+antisocialvsCN,R_caudalanteriorcingulate,-0.12,,-0.20,-0.04,1227,1160,0.0039,0.0067,,,
+antisocialvsCN,R_caudalmiddlefrontal,-0.14,,-0.22,-0.06,1225,1156,0.0007,0.0016,,,
+antisocialvsCN,R_cuneus,-0.09,,-0.17,-0.01,1209,1149,0.0254,0.0337,,,
+antisocialvsCN,R_entorhinal,-0.12,,-0.20,-0.04,1201,1143,0.0040,0.0067,,,
+antisocialvsCN,R_fusiform,-0.17,,-0.25,-0.08,1214,1157,0.0001,0.0003,,,
+antisocialvsCN,R_inferiorparietal,-0.26,,-0.34,-0.18,1208,1159,<0.0001,<0.0001,,,
+antisocialvsCN,R_inferiortemporal,-0.20,,-0.28,-0.12,1198,1132,<0.0001,<0.0001,,,
+antisocialvsCN,R_isthmuscingulate,-0.14,,-0.22,-0.06,1234,1165,0.0008,0.0020,,,
+antisocialvsCN,R_lateraloccipital,-0.12,,-0.20,-0.03,1210,1150,0.0053,0.0085,,,
+antisocialvsCN,R_lateralorbitofrontal,-0.15,,-0.23,-0.07,1230,1161,0.0002,0.0005,,,
+antisocialvsCN,R_lingual,-0.10,,-0.18,-0.02,1218,1160,0.0148,0.0216,,,
+antisocialvsCN,R_medialorbitofrontal,-0.06,,-0.14,0.02,1221,1154,0.1262,0.1472,,,
+antisocialvsCN,R_middletemporal,-0.22,,-0.30,-0.14,1211,1152,<0.0001,<0.0001,,,
+antisocialvsCN,R_parahippocampal,-0.16,,-0.24,-0.08,1233,1170,0.0001,0.0004,,,
+antisocialvsCN,R_paracentral,-0.04,,-0.12,0.04,1233,1170,0.2752,0.2943,,,
+antisocialvsCN,R_parsopercularis,-0.04,,-0.12,0.04,1233,1169,0.3099,0.3190,,,
+antisocialvsCN,R_parsorbitalis,-0.11,,-0.19,-0.03,1233,1168,0.0071,0.0107,,,
+antisocialvsCN,R_parstriangularis,-0.07,,-0.15,0.01,1232,1168,0.1005,0.1256,,,
+antisocialvsCN,R_pericalcarine,-0.05,,-0.13,0.03,1194,1143,0.2401,0.2711,,,
+antisocialvsCN,R_postcentral,-0.16,,-0.24,-0.08,1185,1136,0.0001,0.0004,,,
+antisocialvsCN,R_posteriorcingulate,-0.09,,-0.17,-0.01,1233,1167,0.0260,0.0337,,,
+antisocialvsCN,R_precentral,-0.16,,-0.24,-0.08,1202,1144,0.0002,0.0005,,,
+antisocialvsCN,R_precuneus,-0.15,,-0.23,-0.07,1235,1167,0.0003,0.0008,,,
+antisocialvsCN,R_rostralanteriorcingulate,-0.07,,-0.15,0.01,1230,1161,0.1101,0.1328,,,
+antisocialvsCN,R_rostralmiddlefrontal,-0.13,,-0.22,-0.05,1227,1152,0.0011,0.0023,,,
+antisocialvsCN,R_superiorfrontal,-0.19,,-0.27,-0.11,1219,1153,<0.0001,<0.0001,,,
+antisocialvsCN,R_superiorparietal,-0.09,,-0.17,-0.01,1199,1148,0.0239,0.0335,,,
+antisocialvsCN,R_superiortemporal,-0.17,,-0.25,-0.09,1189,1138,<0.0001,<0.0001,,,
+antisocialvsCN,R_supramarginal,-0.13,,-0.21,-0.05,1196,1146,0.0019,0.0037,,,
+antisocialvsCN,R_frontalpole,-0.20,,-0.28,-0.12,1228,1158,<0.0001,<0.0001,,,
+antisocialvsCN,R_temporalpole,-0.01,,-0.09,0.07,1205,1139,0.7840,0.7840,,,
+antisocialvsCN,R_transversetemporal,-0.04,,-0.12,0.04,1235,1168,0.2775,0.2943,,,
+antisocialvsCN,R_insula,-0.13,,-0.22,-0.05,1191,1148,0.0011,0.0024,,,

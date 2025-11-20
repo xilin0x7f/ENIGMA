@@ -1,19 +1,17 @@
-Subcortical Volume;Structure;d_icv;se_icv;low_ci_icv;up_ci_icv;n_controls;n_patients;pobs;fdr_p;;
-antisocialvsCN;LLatVent;;;;;;;;;;
-antisocialvsCN;Lthal;-0.14;;-0.22; -0.06;1228;1156;0.0009; 0.0055;;
-antisocialvsCN;Lcaud;-0.04;;-0.12;0.04;1202;1151;0.3540 ;0.4570;;
-antisocialvsCN;Lput;-0.03;;0.11; 0.05;1228;1162;0.3999; 0.4570;;
-antisocialvsCN;Lpal;0.01;;-0.07; 0.09;1241;1174;0.7407; 0.7407;;
-antisocialvsCN;Lhippo;-0.12;;-0.20;-0.04;1248;1180;0.0031 ;0.0082;;
-antisocialvsCN;Lamyg;-0.13;;-0.21;-0.05;1233;1173;0.0014; 0.0055;;
-antisocialvsCN;Laccumb;-0.11;;-0.19;-0.03;1249;1180;0.0052; 0.0103;;
-antisocialvsCN;RLatVent;;;;;;;;;;
-antisocialvsCN;Rthal;;;;;;;;;;
-antisocialvsCN;Rcaud;;;;;;;;;;
-antisocialvsCN;Rput;;;;;;;;;;
-antisocialvsCN;Rpal;;;;;;;;;;
-antisocialvsCN;Rhippo;;;;;;;;;;
-antisocialvsCN;Ramyg;;;;;;;;;;
-antisocialvsCN;Raccumb;;;;;;;;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
+Subcortical Volume,Structure,d_icv,se_icv,low_ci_icv,up_ci_icv,n_controls,n_patients,pobs,fdr_p,,
+antisocialvsCN,Laccumb,-0.11,,-0.19,-0.03,1249,1180,0.0052,0.0103,,
+antisocialvsCN,Lamyg,-0.13,,-0.21,-0.05,1233,1173,0.0014,0.0055,,
+antisocialvsCN,Lcaud,-0.04,,-0.12,0.04,1202,1151,0.3540,0.4570,,
+antisocialvsCN,Lhippo,-0.12,,-0.20,-0.04,1248,1180,0.0031,0.0082,,
+antisocialvsCN,Lpal,0.01,,-0.07,0.09,1241,1174,0.7407,0.7407,,
+antisocialvsCN,Lput,-0.03,,0.11,0.05,1228,1162,0.3999,0.4570,,
+antisocialvsCN,Lthal,-0.14,,-0.22,-0.06,1228,1156,0.0009,0.0055,,
+antisocialvsCN,LLatVent,,,,,,,,,,
+antisocialvsCN,Raccumb,-0.11,,-0.19,-0.03,1249,1180,0.0052,0.0103,,
+antisocialvsCN,Ramyg,-0.13,,-0.21,-0.05,1233,1173,0.0014,0.0055,,
+antisocialvsCN,Rcaud,-0.04,,-0.12,0.04,1202,1151,0.3540,0.4570,,
+antisocialvsCN,Rhippo,-0.12,,-0.20,-0.04,1248,1180,0.0031,0.0082,,
+antisocialvsCN,Rpal,0.01,,-0.07,0.09,1241,1174,0.7407,0.7407,,
+antisocialvsCN,Rput,-0.03,,0.11,0.05,1228,1162,0.3999,0.4570,,
+antisocialvsCN,Rthal,-0.14,,-0.22,-0.06,1228,1156,0.0009,0.0055,,
+antisocialvsCN,RLatVent,,,,,,,,,,

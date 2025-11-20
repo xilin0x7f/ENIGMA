@@ -151,16 +151,32 @@ Available summary statistics tables
 
 |
 
-
-Antisocial
+Anorexia Nervosa
 -------------------------------------
 Available summary statistics tables
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-| **From** `Lastname et al., YEAR, JOURNAL NAME <https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2017.17010100>`_  |  **age, sex, IQ, and ICV\* correction; FDR correction available (uncorrected p-values not provided); mean\* [(left+right)/ 2)] region of interest volume**
-| ↪ CortThick_case_vs_controls_meta_analysis 📸
-| ↪ CortSurf_case_controls_meta_analysis
-| ↪ SubVol_case_vs_controls_meta_analysis
+| **From** `Walton et al., 2022, Biological Psychiatry <https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)01290-2/abstract>`_  |  **See paper for specific model corrections; FDR correction available**
+| ↪ CortThick_anorexia_case_controls 📸
+| ↪ CortSurf_anorexia_case_controls
+| ↪ SubVol_anorexia_case_controls
+| ↪ CortThick_anorexia_case_controls_wGlo
+| ↪ CortSurf_anorexia_case_controls_wGlo
+| ↪ CortThick_anorexia_acAN_controls
+| ↪ CortSurf_anorexia_acAN_controls
+| ↪ SubVol_anorexia_acAN_controls
+| ↪ CortThick_anorexia_acAN_controls_wGlo
+| ↪ CortSurf_anorexia_acAN_controls_wGlo
+| ↪ CortThick_anorexia_acANpwrAN_wGlo
+| ↪ CortSurf_anorexia_acANpwrAN
+| ↪ CortThick_anorexia_acANpwrAN
+| ↪ CortSurf_anorexia_acANpwrAN_wGlo
+| ↪ SubVol_anorexia_acAN_pwrAN
+| ↪ CortSurf_anorexia_pwrANcontrols_wGlo
+| ↪ CortSurf_anorexia_pwrAN_controls
+| ↪ CortThick_anorexia_pwrAN_controls_wGlo
+| ↪ CortThick_anorexia_pwrAN_controls
+| ↪ SubVol_anorexia_pwrAN_controls
 
 .. tabs::
 
@@ -168,26 +184,64 @@ Available summary statistics tables
 
         >>> from enigmatoolbox.datasets import load_summary_stats
 
-        >>> # Load summary statistics for ENIGMA-Autism
-        >>> sum_stats = load_summary_stats('antisocial')
+        >>> # Load summary statistics for ENIGMA-Eating Disorder (Anorexia Nervosa)
+        >>> sum_stats = load_summary_stats('anorexia')
 
         >>> # Get case-control cortical thickness table
-        >>> CT = sum_stats['CortThick_case_vs_controls_meta_analysis']
+        >>> CT = sum_stats['CortThick_anorexia_case_controls']
 
         >>> # Extract Cohen's d values
         >>> CT_d = CT['d_icv']
 
    .. code-tab:: matlab **Matlab** | meta
 
-        % Load summary statistics for ENIGMA-Autism
-        sum_stats = load_summary_stats('antisocial');
+        % Load summary statistics for ENIGMA-Eating Disorder (Anorexia Nervosa)
+        sum_stats = load_summary_stats('anorexia');
 
         % Get case-control cortical thickness table
-        CT = sum_stats.CortThick_case_vs_controls_meta_analysis;
+        CT = sum_stats.CortThick_anorexia_case_controls;
 
         % Extract Cohen's d values
         CT_d = CT.d_icv;
 
+
+Antisocial
+-------------------------------------
+Available summary statistics tables
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| **From** `Gao et al., 2024, The Lancet Psychiatry <https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(24)00187-1/fulltext>`_  |  **age and sex correction (ICV correction in surface area and subcortical volume analyses); FDR correction available (q=0.05); mean\* [(left+right)/ 2)] region of interest measures**
+| ↪ CortThick_case_controls_antisocial 📸
+| ↪ CortSurf_case_controls_antisocial
+| ↪ SubVol_case_controls_antisocial
+
+.. tabs::
+
+   .. code-tab:: py **Python** | meta
+
+        >>> from enigmatoolbox.datasets import load_summary_stats
+
+        >>> # Load summary statistics for ENIGMA-Antisocial Behavior
+        >>> sum_stats = load_summary_stats('antisocial')
+
+        >>> # Get case-control cortical thickness table
+        >>> CT = sum_stats['CortThick_case_controls_antisocial']
+
+        >>> # Extract Cohen's d values
+        >>> CT_d = CT['d_icv']
+
+   .. code-tab:: matlab **Matlab** | meta
+
+        % Load summary statistics for ENIGMA-Antisocial Behavior
+        sum_stats = load_summary_stats('antisocial');
+
+        % Get case-control cortical thickness table
+        CT = sum_stats.CortThick_case_controls_antisocial;
+
+        % Extract Cohen's d values
+        CT_d = CT.d_icv;
+
+|
 
 Autism spectrum disorder
 -------------------------------------
@@ -287,6 +341,53 @@ Available summary statistics tables
 
 |
 
+Brain Asymmetry
+-------------------------------------
+Available summary statistics tables
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| **From** `Kong et al., 2018, PNAS <https://www.pnas.org/doi/full/10.1073/pnas.1718418115#supplementary-materials>`_  |  **See paper for specific model corrections; Same values are used in each hemisphere for visualization purposes**
+| ↪ CortThick_asymm_population_level 📸
+| ↪ CortSurf_asymm_population_level
+| ↪ CortThick_asymm_ICVeffects 
+| ↪ CortSurf_asymm_ICVeffects
+| ↪ CortThick_asymm_handedness-diff
+| ↪ CortSurf_asymm_handedness-diff
+| ↪ CortThick_asymm_ageeffects
+| ↪ CortSurf_asymm_ageeffects
+| ↪ CortThick_asymm_ageeffects_20years
+| ↪ CortSurf_asymm_ageeffects_20years
+| ↪ CortThick_asymm_sexeffects
+| ↪ CortSurf_asymm_sexeffects
+
+.. tabs::
+
+   .. code-tab:: py **Python** | meta
+
+        >>> from enigmatoolbox.datasets import load_summary_stats
+
+        >>> # Load summary statistics for ENIGMA-Lateralization
+        >>> sum_stats = load_summary_stats('asymmetry')
+
+        >>> # Get case-control cortical thickness table
+        >>> CT = sum_stats['CortThick_asymm_population_level']
+
+        >>> # Extract Cohen's d values
+        >>> CT_d = CT['d_icv']
+
+   .. code-tab:: matlab **Matlab** | meta
+
+        % Load summary statistics for ENIGMA-Lateralization
+        sum_stats = load_summary_stats('asymmetry');
+
+        % Get case-control cortical thickness table
+        CT = sum_stats.CortThick_asymm_population_level;
+
+        % Extract Cohen's d values
+        CT_d = CT.d_icv;
+
+
+|
 
 Epilepsy
 ----------------------------
